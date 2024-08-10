@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Brush Script MT', cursive; /* Fonte estilizada para um toque elegante */
+    color: #333; /* Cor do texto */
+    background-color: #f5f5f5; /* Cor de fundo suave */
+}
+
+header {
+    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    border-bottom: 2px solid #ccc; /* Linha de separação inferior */
+    padding: 10px; /* Espaçamento interno */
+}
+
+nav {
+    display: flex; /* Layout flexível para navegação */
+    justify-content: space-between; /* Espaçamento entre itens */
+    align-items: center; /* Alinhamento vertical centralizado */
+}
+
+.logo {
+    font-size: 24px; /* Tamanho da fonte do logo */
+    color: #0099cc; /* Cor do texto do logo */
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    display: flex; /* Layout flexível para itens da lista */
+}
+
+nav ul li {
+    margin: 0 10px; /* Espaçamento entre itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #0099cc; /* Cor dos links */
+}
+
+.hero {
+    background: #0099cc; /* Cor de fundo da seção principal */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado do texto */
+    padding: 50px 20px; /* Espaçamento interno */
+}
+
+.produtos {
+    padding: 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo da seção de produtos */
+}
+
+.produto {
+    display: inline-block; /* Exibição dos produtos em linha */
+    width: 30%; /* Largura dos produtos */
+    margin: 10px; /* Espaçamento entre produtos */
+    background-color: #f9f9f9; /* Cor de fundo do produto */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado do texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra do produto */
+}
+
+.produto img {
+    width: 100%; /* Largura da imagem do produto */
+    height: auto; /* Altura automática da imagem */
+    border-radius: 8px; /* Bordas arredondadas da imagem */
+}
+
+button {
+    background-color: #0099cc; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #0077aa; /* Cor do botão ao passar o mouse */
+}
+
+.contato, .sobre {
+    background-color: #ffffff; /* Cor de fundo das seções de contato e sobre */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado do texto */
+}
+
+footer {
+    background-color: #0099cc; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado do texto */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/*
+Comentários:
+
+1. O reset básico remove margens e preenchimentos padrão e define o box-sizing para border-box para que o padding e border sejam incluídos na largura e altura dos elementos.
+
+2. A fonte 'Brush Script MT' é usada para um estilo elegante e personalizado.
+
+3. Cores suaves como azul bebê, branco e creme são usadas para criar um visual limpo e moderno.
+
+4. A seção .produto é estilizada para destacar os produtos com uma sombra e bordas arredondadas.
+
+5. O botão é estilizado com uma cor de fundo azul e uma mudança de cor ao passar o mouse.
+*/
+
