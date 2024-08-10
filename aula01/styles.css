@@ -1,0 +1,56 @@
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para alterações de tema */
+}
+
+/* Estilos para o tema claro */
+body.light {
+    background-color: #f0f0f0; /* Cor de fundo clara */
+    color: #000; /* Cor do texto escura */
+}
+
+/* Estilos para o tema escuro */
+body.dark {
+    background-color: #333; /* Cor de fundo escura */
+    color: #f0f0f0; /* Cor do texto clara */
+}
+
+/* Estilos para a container principal */
+.container {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para a área de troca de temas */
+.theme-switcher {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilos para os botões de troca de temas */
+button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Remove borda padrão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    margin: 0 5px; /* Espaçamento horizontal entre botões */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+/* Estilos para o botão ao passar o mouse por cima */
+button:hover {
+    background-color: #0056b3; /* Cor de fundo quando o mouse está sobre o botão */
+}
+/* 
+    Comentários:
+
+    - Define estilos para os temas claro e escuro com transições suaves.
+
+    - Inclui estilos básicos para o layout, botões e área de troca de temas.
+
+    - A classe `light` aplica o tema claro e a classe `dark` aplica o tema escuro.
+*/
+
