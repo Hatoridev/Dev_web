@@ -1,0 +1,75 @@
+/* Estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para a página */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estilo do cabeçalho da página */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinha o texto no centro */
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    padding: 0; /* Remove o padding padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+}
+
+/* Estilo das divisões de produtos */
+.product {
+    border: 1px solid #ddd; /* Borda ao redor do produto */
+    padding: 10px; /* Espaçamento interno do produto */
+    margin: 10px 0; /* Espaçamento externo entre produtos */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #28a745; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+/* Estilo do botão quando o mouse passa por cima */
+button:hover {
+    background-color: #218838; /* Cor de fundo quando o mouse está sobre o botão */
+}
+
+/* Estilo do rodapé da página */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinha o texto no centro */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé como 100% da página */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+}
+/* 
+    Comentários:
+
+    - O CSS define estilos para diferentes partes da página, como o corpo, cabeçalho, navegação, produtos, botões e rodapé.
+
+    - Estilos básicos são aplicados ao layout, tipografia e interatividade (como a mudança de cor dos botões ao passar o mouse).
+*/
+

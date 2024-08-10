@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à nossa loja!</h2>
+            <p>Confira nossos produtos abaixo.</p>
+        </section>
+        <section id="products">
+            <h2>Produtos</h2>
+            <!-- Divisões para produtos individuais -->
+            <div class="product">
+                <h3>Produto 1</h3>
+                <p>Descrição do Produto 1.</p>
+                <!-- Botão para adicionar o produto ao carrinho -->
+                <button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product">
+                <h3>Produto 2</h3>
+                <p>Descrição do Produto 2.</p>
+                <!-- Botão para adicionar o produto ao carrinho -->
+                <button onclick="addToCart('Produto 2')">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <!-- Informações de contato da loja -->
+            <p>Email: contato@minhaloja.com.br</p>
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé com direitos autorais -->
+        <p>&copy; 2024 Minha Loja Online</p>
+    </footer>
+    <!-- Inclusão do script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- 
+    Comentários:
+
+    - Este arquivo HTML define a estrutura básica da página do e-commerce, incluindo cabeçalho, navegação, conteúdo principal e rodapé.
+
+    - O cabeçalho contém o título da loja e um menu de navegação com links para diferentes seções da página.
+
+    - A seção principal (`main`) é dividida em seções para apresentação de produtos e informações de contato.
+
+    - O rodapé contém uma mensagem de direitos autorais.
+
+    - O arquivo de estilo (`styles.css`) e o script JavaScript (`script.js`) são vinculados neste arquivo.
+-->
+
