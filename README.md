@@ -33,7 +33,7 @@ Repository containing examples of web development using HTML, CSS, and JavaScrip
      **Example Output**:
      ```
      COMMAND   PID    USER    FD   TYPE DEVICE SIZE/OFF NODE NAME
-     busybox  12345  zyw     7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)
+     busybox  12345  username  7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)
      ```
    - Kill the process using the port (replace `12345` with the actual PID):
      ```bash
@@ -111,7 +111,7 @@ Repository containing examples of web development using HTML, CSS, and JavaScrip
      **Example Output**:
      ```
      COMMAND   PID    USER    FD   TYPE DEVICE SIZE/OFF NODE NAME
-     busybox  12345  zyw     7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)
+     busybox  12345  username  7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)
      ```
    - Kill the process using the port (replace `12345` with the actual PID):
      ```bash
