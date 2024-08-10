@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #007bff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.produtos {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.produto {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.contato, .sobre {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+Comentário:
+
+Este arquivo CSS define o estilo da página da loja.
+
+- O reset básico remove margens e preenchimentos padrão.
+
+- O estilo do corpo define a fonte e as cores de fundo.
+
+- O cabeçalho e navegação têm uma cor de fundo branca com borda inferior.
+
+- A seção hero tem um fundo azul com texto branco.
+
+- A seção produtos estiliza os produtos com fundo claro e sombra.
+
+- O botão tem uma cor de fundo azul e muda ao passar o mouse.
+
+- As seções de contato e sobre têm um fundo branco e texto centralizado.
+
+- O rodapé tem um fundo azul e texto branco.
+*/
+
